@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<title>CKOILIP</title>
+	<style>
+		body {
+			text-align: center;
+			font-size: 80px;
+		}
+	</style>
+</head>
+
+<body>
+	<span></span>
+</body>
+<script>
+	function getRandomInt(max) {
+		return Math.floor(Math.random() * max);
+	}
+
+	var ip = getRandomInt(255) + '.' + getRandomInt(255) + '.' + getRandomInt(255) + '.' + getRandomInt(255)
+
+	document.querySelector('span').innerHTML = ip
+</script>
+
+</html>
